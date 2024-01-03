@@ -1,2 +1,2 @@
 # DataStructure
-Data Structure for Practice!
+Data Structure for FUN!
