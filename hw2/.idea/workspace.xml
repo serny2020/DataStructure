@@ -36,30 +36,67 @@
     "project.structure.side.proportion": "0.2"
   }
 }]]></component>
-  <component name="RunManager" selected="Application.InteractivePercolationVisualizer">
+  <component name="RunManager" selected="Application.PercolationPicture">
     <configuration name="&lt;template&gt;" type="TestNG" default="true" selected="false">
       <option name="VM_PARAMETERS" value="-ea" />
       <option name="WORKING_DIRECTORY" value="%MODULE_WORKING_DIR%" />
     </configuration>
-    <configuration name="InteractivePercolationVisualizer" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+    <configuration name="InteractivePercolationVisualizer" type="Application" factoryName="Application">
       <option name="MAIN_CLASS_NAME" value="InteractivePercolationVisualizer" />
       <module name="hw2" />
+      <option name="PROGRAM_PARAMETERS" value="2" />
+      <method v="2" />
+    </configuration>
+    <configuration name="PercolationPicture" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="PercolationPicture" />
+      <module name="hw2" />
+      <option name="PROGRAM_PARAMETERS" value="inputFiles/input20.txt" />
       <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
+      <method v="2" />
+    </configuration>
+    <configuration name="PercolationStats" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="PercolationStats" />
+      <module name="hw2" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
+      <method v="2" />
+    </configuration>
+    <configuration name="Unnamed" type="Application" factoryName="Application" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="PercolationPicture" />
+      <module name="hw2" />
+      <option name="PROGRAM_PARAMETERS" value="inputFiles/input20.txt" />
+      <method v="2" />
     </configuration>
     <configuration default="true" type="Application" factoryName="Application">
       <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
+      <method v="2" />
     </configuration>
     <configuration name="PercolationTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="hw2" />
       <option name="PACKAGE_NAME" value="" />
       <option name="MAIN_CLASS_NAME" value="PercolationTest" />
       <option name="TEST_OBJECT" value="class" />
+      <option name="WORKING_DIRECTORY" value="%MODULE_WORKING_DIR%" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="PercolationTest.fullFillTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="hw2" />
+      <option name="PACKAGE_NAME" value="" />
+      <option name="MAIN_CLASS_NAME" value="PercolationTest" />
+      <option name="METHOD_NAME" value="fullFillTest" />
+      <option name="TEST_OBJECT" value="method" />
+      <option name="WORKING_DIRECTORY" value="%MODULE_WORKING_DIR%" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="PercolationTest.fullTileTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="hw2" />
+      <option name="PACKAGE_NAME" value="" />
+      <option name="MAIN_CLASS_NAME" value="PercolationTest" />
+      <option name="METHOD_NAME" value="fullTileTest" />
+      <option name="TEST_OBJECT" value="method" />
       <option name="WORKING_DIRECTORY" value="%MODULE_WORKING_DIR%" />
       <method v="2">
         <option name="Make" enabled="true" />
@@ -72,10 +109,22 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
+    <list>
+      <item itemvalue="Application.InteractivePercolationVisualizer" />
+      <item itemvalue="Application.Unnamed" />
+      <item itemvalue="Application.PercolationPicture" />
+      <item itemvalue="Application.PercolationStats" />
+      <item itemvalue="JUnit.PercolationTest" />
+      <item itemvalue="JUnit.PercolationTest.fullFillTest" />
+      <item itemvalue="JUnit.PercolationTest.fullTileTest" />
+    </list>
     <recent_temporary>
       <list>
-        <item itemvalue="Application.InteractivePercolationVisualizer" />
+        <item itemvalue="Application.PercolationPicture" />
+        <item itemvalue="Application.PercolationStats" />
         <item itemvalue="JUnit.PercolationTest" />
+        <item itemvalue="JUnit.PercolationTest.fullTileTest" />
+        <item itemvalue="JUnit.PercolationTest.fullFillTest" />
       </list>
     </recent_temporary>
   </component>
