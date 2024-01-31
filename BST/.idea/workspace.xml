@@ -43,7 +43,7 @@
     &quot;project.structure.side.proportion&quot;: &quot;0.2&quot;
   }
 }</component>
-  <component name="RunManager" selected="JUnit.TestBSTMap">
+  <component name="RunManager" selected="JUnit.TestBSTMapExtra.sanityKeySetTest">
     <configuration name="&lt;template&gt;" type="TestNG" default="true" selected="false">
       <option name="VM_PARAMETERS" value="-ea" />
       <option name="WORKING_DIRECTORY" value="%MODULE_WORKING_DIR%" />
@@ -67,11 +67,32 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="TestBSTMap.printTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+    <configuration name="TestBSTMapExtra" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="lab07" />
       <option name="PACKAGE_NAME" value="" />
-      <option name="MAIN_CLASS_NAME" value="TestBSTMap" />
-      <option name="METHOD_NAME" value="printTest" />
+      <option name="MAIN_CLASS_NAME" value="TestBSTMapExtra" />
+      <option name="TEST_OBJECT" value="class" />
+      <option name="WORKING_DIRECTORY" value="%MODULE_WORKING_DIR%" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="TestBSTMapExtra.sanityKeySetTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="lab07" />
+      <option name="PACKAGE_NAME" value="" />
+      <option name="MAIN_CLASS_NAME" value="TestBSTMapExtra" />
+      <option name="METHOD_NAME" value="sanityKeySetTest" />
+      <option name="TEST_OBJECT" value="method" />
+      <option name="WORKING_DIRECTORY" value="%MODULE_WORKING_DIR%" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="TestBSTMapExtra.testRemoveThreeCases" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="lab07" />
+      <option name="PACKAGE_NAME" value="" />
+      <option name="MAIN_CLASS_NAME" value="TestBSTMapExtra" />
+      <option name="METHOD_NAME" value="testRemoveThreeCases" />
       <option name="TEST_OBJECT" value="method" />
       <option name="WORKING_DIRECTORY" value="%MODULE_WORKING_DIR%" />
       <method v="2">
@@ -89,28 +110,6 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="TestBSTMap.sanityPutTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
-      <module name="lab07" />
-      <option name="PACKAGE_NAME" value="" />
-      <option name="MAIN_CLASS_NAME" value="TestBSTMap" />
-      <option name="METHOD_NAME" value="sanityPutTest" />
-      <option name="TEST_OBJECT" value="method" />
-      <option name="WORKING_DIRECTORY" value="%MODULE_WORKING_DIR%" />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="TestBSTMap.treeTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
-      <module name="lab07" />
-      <option name="PACKAGE_NAME" value="" />
-      <option name="MAIN_CLASS_NAME" value="TestBSTMap" />
-      <option name="METHOD_NAME" value="treeTest" />
-      <option name="TEST_OBJECT" value="method" />
-      <option name="WORKING_DIRECTORY" value="%MODULE_WORKING_DIR%" />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
     <configuration default="true" type="JUnit" factoryName="JUnit">
       <option name="TEST_OBJECT" value="class" />
       <option name="WORKING_DIRECTORY" value="%MODULE_WORKING_DIR%" />
@@ -120,24 +119,13 @@
     </configuration>
     <recent_temporary>
       <list>
-        <item itemvalue="JUnit.TestBSTMap" />
+        <item itemvalue="JUnit.TestBSTMapExtra.sanityKeySetTest" />
+        <item itemvalue="JUnit.TestBSTMapExtra" />
+        <item itemvalue="JUnit.TestBSTMapExtra.testRemoveThreeCases" />
         <item itemvalue="JUnit.TestBSTMap.removeTest" />
-        <item itemvalue="JUnit.TestBSTMap.printTest" />
-        <item itemvalue="JUnit.TestBSTMap.treeTest" />
-        <item itemvalue="JUnit.TestBSTMap.sanityPutTest" />
+        <item itemvalue="JUnit.TestBSTMap" />
       </list>
     </recent_temporary>
   </component>
   <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
-  <component name="XDebuggerManager">
-    <breakpoint-manager>
-      <breakpoints>
-        <line-breakpoint enabled="true" type="java-line">
-          <url>file://$PROJECT_DIR$/tests/TestBSTMap.java</url>
-          <line>82</line>
-          <option name="timeStamp" value="2" />
-        </line-breakpoint>
-      </breakpoints>
-    </breakpoint-manager>
-  </component>
 </project>

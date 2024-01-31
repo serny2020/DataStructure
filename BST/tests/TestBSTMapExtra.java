@@ -1,11 +1,13 @@
+import org.junit.Test;
+
 import java.util.Set;
 import java.util.TreeSet;
 
-import org.junit.Test;
-
 import static com.google.common.truth.Truth.assertThat;
 
-/** Tests of optional parts of lab 7. */
+/**
+ * Tests of optional parts of lab 7.
+ */
 public class TestBSTMapExtra {
 
     /*
@@ -21,6 +23,7 @@ public class TestBSTMapExtra {
         }
         assertThat(b.size()).isEqualTo(455); //keys are there
         Set<String> keySet = b.keySet();
+//        System.out.println(values);
         assertThat(values).containsExactlyElementsIn(keySet).inOrder();
         assertThat(keySet).containsExactlyElementsIn(values).inOrder();
     }
@@ -60,12 +63,12 @@ public class TestBSTMapExtra {
      */
     @Test
     public void testRemoveThreeCases() {
-        BSTMap<String,String> q = new BSTMap<>();
-        q.put("c","a");
-        q.put("b","a");
-        q.put("a","a");
-        q.put("d","a");
-        q.put("e","a");                         // a b c d e
+        BSTMap<String, String> q = new BSTMap<>();
+        q.put("c", "a");
+        q.put("b", "a");
+        q.put("a", "a");
+        q.put("d", "a");
+        q.put("e", "a");                         // a b c d e
         assertThat(q.remove("e")).isNotNull();      // a b c d
         assertThat(q.containsKey("a")).isTrue();
         assertThat(q.containsKey("b")).isTrue();
@@ -75,7 +78,7 @@ public class TestBSTMapExtra {
         assertThat(q.containsKey("a")).isTrue();
         assertThat(q.containsKey("b")).isTrue();
         assertThat(q.containsKey("d")).isTrue();
-        q.put("f","a");                         // a b d f
+        q.put("f", "a");                         // a b d f
         assertThat(q.remove("d")).isNotNull();      // a b f
         assertThat(q.containsKey("a")).isTrue();
         assertThat(q.containsKey("b")).isTrue();

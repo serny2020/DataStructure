@@ -1,6 +1,6 @@
-import java.util.HashSet;
 import java.util.Iterator;
 import java.util.Set;
+import java.util.TreeSet;
 
 
 /**
@@ -128,7 +128,7 @@ public class BSTMap<K extends Comparable<K>, V> implements Map61B<K, V> {
 
     @Override
     public Set<K> keySet() {
-        HashSet<K> set = new HashSet<>();
+        TreeSet<K> set = new TreeSet<>(); //return set of keys in order
         addKeys(root, set);
         return set;
     }
@@ -150,9 +150,10 @@ public class BSTMap<K extends Comparable<K>, V> implements Map61B<K, V> {
 
     @Override
     public V remove(K key) {
+        V returnValue = get(key);
         root = removeHelper(root, key);
         size -= 1;
-        return get(key);
+        return returnValue;
     }
 
     /**
